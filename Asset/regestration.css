@@ -1,0 +1,87 @@
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(#89e5e5, #cbf298);
+ }
+.headg{
+font-family: 'Quicksand', sans-serif;
+text-align: center;
+font-size: 30px;
+margin-top: 15px;
+}
+
+.para{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  position: relative;
+
+}
+
+#formh{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  border: 1px;
+}
+
+.form{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  background-color: rgba(230, 236, 247,0.4);
+  padding: 10px;
+  width: 480px;
+  border: 2px;
+  border-radius: 3px;
+  position: relative;
+
+   }
+
+input{
+  text-align: center;
+  font-size: 15px;
+  border: 0px;
+  height: 25px;
+  border-radius: 2px;
+  margin-top: 5px;
+  width: 140px;
+  transition: width 0.3s ease;
+}
+
+input:hover{
+  width: 180px;
+  background-color: rgb(232, 255, 229)
+}
+
+#fpara{
+  position:relative;
+  top: 60px;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+.fbutn{
+  width: 100px;
+  cursor: pointer;
+}
+
+.fbutn:hover{
+  width: 180px;
+  background-color: rgb(171, 234, 218);
+  border-radius: 5px;
+}
+
+option{
+  border=0;
+}
+
+.logout{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
